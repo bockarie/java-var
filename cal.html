@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>calc</title>
+    <a href="./index.html">home page</a>
+
+    <script type="text/javascript">
+    // data (variables)
+    var a= 6;
+    var b= 5;
+    // functions
+    function add(param1,param2) {
+       console.log("a + b = ", param1 + param2)
+    }
+
+     function substract(param1, param2) {
+            console.log("a - b = ", param1 - param2)
+        }
+        function multiply(param1, param2) {
+                console.log("a * b = ", param1 * param2)
+            }
+            function divide(param1, param2) {
+                    console.log("a / b = ", param1 / param2)
+                }
+    </script>
+</head>
+
+<body>
+<button onclick="add(a,b);"> add</button>
+<button onclick="substract(a,b);"> substract</button>
+<button onclick="multiply(a,b);"> multiply</button>
+<button onclick="divide(a,b);"> divide</button>
+
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>home page</title>
+
+  <script type="text/javascript">
+    // data (variables)
+    var a=true;
+    var b= false;
+    // functions
+    function print_deets(param) {
+        if (param) {
+          console.log('the argument was "a":', param);
+        } else {
+          console.log('the argument was "b":', param);
+        }
+      }
+  </script>
+</head>
+
+<body>
+  <h1>hello!</h1>
+  <button onclick="print_deets(a);">call print_deets with "a"</button> <br>
+  <button onclick="print_deets(b);">call print_deets with "b"</button> <br>
+  <button onclick="console.log('hello!');">friendly button</button> <br>
+  <hr>
+  <!-- delete this button when you're ready to start! -->
+  <a href="./team.html">team page</a>
+  <a href="./cal.html"></a>
+</body>
+</html>

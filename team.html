@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>team page</title>
+
+    <script type="text/javascript">
+    // data (variables)
+    var print_name= "saliha";
+    var print_name= "harun";
+    var members = ["saliha", "harun"];
+    var team = "gold";
+    // functions
+    function print_team_name(param) {
+            console.log("the team is ", param)
+    }
+
+    function print_team_members(param) {
+            console.log("members are: ", param)
+    }
+    function introduce(t, m) {
+        print_team_name(t);
+        print_team_members(m);
+    }
+    </script>
+</head>
+
+<body>
+<button onclick="print_team_name(team);">team</button> <br>
+<button onclick="print_team_members(members);">members</button> <br>
+<button onclick="introduce(team,members);">team and members</button> <br>
+<hr>
+</body>
+
+</html>
